@@ -1,0 +1,412 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header{
+    background-color: #212121;
+    min-height: 80px;
+    padding-top: 15px;
+    overflow:hidden;
+    border-bottom:#B7905A 3px solid;
+}
+
+.contenedor-flex-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+
+}
+
+.contenedor-flex-1 ul{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.contenedor-flex-1 li{
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+.contenedor-flex-1 li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+#banner{
+    margin-bottom: 10px;
+    min-height: 700px;
+    font-style: italic;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('../img/fondop.jpg');
+    background-size: cover;
+    
+
+}
+#banner h1{
+    font-size: 5.5em;
+    color: white;
+    font-style: italic;
+    font-weight: normal;
+    border-radius: 2px;
+    border-color: #B7905A;
+    margin-top:10px ;
+    margin-bottom: 10px;
+    padding-top: 80px;
+    transform: scale(1,1.1);
+}
+
+.ancho-contenido-banner{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+
+.ancho-contenido-banner h2{
+    color: white;
+    font-size: 3.6em;
+}
+.ancho-contenido-banner p{
+    color: white;
+    font-size: 1.6em;
+}
+
+
+.quote{
+    background-color: #212121;
+    min-height: 120px;
+    padding: 10px;
+    color: white;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.quote span{
+    font-size: 2.0em;
+    padding-right: 20px;
+}
+.quote a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.6em;
+    background-color: #B7905A;
+    border-radius: 16px;
+    padding: 5px 12px 5px 12px;
+}
+
+.container-flex-2{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.container-flex-2 div{
+    
+    text-align: center;
+    font-size: 1.0em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 10px;
+}
+
+footer{
+    text-align: center;
+    font-size: 1.7em;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: #b7905a 3px solid;
+    min-height: 80px;
+    padding-top: 25px;
+}
+
+/* ABOUT */
+
+.Secction-me-1{
+    text-align: center;
+    width: 90%;
+    background-color: #b7905a;
+    margin: 4% auto 4% auto;
+    padding: 3% 0 3% 0;
+
+}
+
+.Secction-me-1 span{
+    color: white;
+    font-size: 50px;
+    border: white 3px solid;
+    padding: 5px 10px 5px 10px;
+}
+
+.Secction-me-2{
+    text-align: center;
+    width: 90%;
+    margin: 4% auto 4% auto;
+    
+
+}
+
+.Secction-me-2 span{
+    font-size: 40px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+ .grid{
+    width: 90%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-rows: auto;
+    grid-template-columns: 60% 40%;
+    grid-template-areas:
+    "valores equipo"
+    "mision equipo"
+    "vision equipo";
+ }
+ .valores{
+    grid-area: valores;
+    font-size: 15px;  
+ }
+
+ .valores p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .mision{
+    grid-area: mision;
+    font-size: 15px;
+    
+ }
+ .mision p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+ }
+ .vision{
+    grid-area: vision;
+    font-size: 15px; 
+ }
+
+ .vision p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+ }
+ 
+
+ 
+.equipo{
+    grid-area:equipo;
+   background: url('../img/f.image.jpg');
+   background-size: cover;
+   margin-bottom: 10px;
+   margin-bottom: 10px; 
+}
+.grid p{
+    padding: 10px;
+    font-size: 1.6em;
+
+}
+.grid h2{
+    font-size: 2.5em;
+
+}
+.grid h2::before{
+    content: "\2022";
+    color: #b7905a;
+    font-size: 32px;
+    padding-right: 10px;
+}
+ 
+.space-about{
+    margin-bottom: 5% ;
+}
+
+
+
+
+.container-form{
+    width: 40%;
+    margin: auto;
+    overflow: hidden;
+    background-color: #212121;
+    padding-top: 20px;
+}
+
+.container-form h3{
+    color: white;
+    font-size: 1.6em;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.form{
+    text-align:center;
+}
+
+.form > div{
+    padding-bottom: 20px;
+}
+
+.form input, textarea{
+    font-size: 1.7em;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton{
+    color: white;
+    
+    background-color: #B7905A;
+    border: none;
+    border-radius: 15px ;
+    font-size: 1.8em;
+    cursor: pointer;
+    padding: 5px 50px;
+    margin-bottom: 10px;
+    
+}
+
+.boton-1{
+    color: white;
+    background-color: #212121;
+    border: 10px;
+    
+    font-size: 1.8em;
+    cursor: pointer;
+    padding: 5px 50px;
+    margin-bottom: 10px;
+
+
+}
+
+.space-form{
+    min-height: 75vh;
+    margin-bottom: 7%;
+
+}
+
+/*media queries */
+
+@media(max-width:768px){
+    .contenedor-flex-1{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-flex-2{
+        flex-wrap: wrap;
+    }
+    .equipo{
+        display: none;
+    }
+    .grid{
+        width: 90%;
+        margin: auto;
+        
+        display: grid;
+        grid-gap: 1em;
+        grid-template-rows: auto;
+        grid-template-columns: 100%;
+        grid-template-areas:
+        "valores "
+        "mision "
+        "vision "
+}
+.container-form{
+    width: 65%;
+}
+.boton{
+    font-size: 1.5em;
+    padding: 5px 30px;
+}
+.cv{
+    align-items: center;
+}
+}
+
+.contenedor{
+    position:relative;
+   
+    
+}
+
+.moneda{
+    background: white;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 20%;
+    animation: salto 0.8s infinite ;
+}
+
+.moneda::before{
+    content:'';
+    display: inline-block;
+    background:  white;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 20%;
+    left: -2px;
+    top: -2px;
+    
+}
+
+.moneda::after{
+    content:'';
+    display: inline-block;
+    background-image: url('../imgl/logoskills.png');
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-size: 90px 90px;
+    background-repeat: no-repeat;
+    top: 3px;
+    left: 5px;
+}
+
+@keyframes salto{
+    0%, 100% {top:0;}
+    30%{top: -25px;}
+}
+
+.skill{
+    background-image:url(../img/matrix.jpg) ;
+    display: flex;
+    justify-content: center;
+    padding-top: 400px;
+    padding-bottom: 232px;    
+}
+
+
+
+
+
+
